@@ -57,5 +57,26 @@ public class SwitchCase {
             case "biz" -> System.out.println("Business");
             default -> System.out.println("Unknown Extension");
         }
+
+        System.out.print("Enter two numbers: ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println("******* Menu *********");
+        System.out.println("Add");
+        System.out.println("Sub");
+        System.out.println("Mul");
+        System.out.println("Div");
+
+        System.out.print("Enter an option from above: ");
+        String str = sc.next();
+
+        switch (str) {
+            case "Add" -> System.out.println(a+b);
+            case "Sub" -> System.out.println(a-b);
+            case "Mul" -> System.out.println(a*b);
+            case "Div" -> System.out.println(a/b);
+            default -> System.out.println("Invalid Option");
+        }
     }
 }
