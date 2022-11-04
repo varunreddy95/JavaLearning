@@ -14,5 +14,10 @@ public class Loops {
             System.out.println(i);
             i = i * 2;
         }while (i < n);
+
+        System.out.println("****************** FOR LOOP *********************************************");
+        for (int k=0; k<=5; k++){
+            System.out.println(k);
+        }
     }
 }
