@@ -4,8 +4,6 @@ public class MatrixOperations {
     public static void main (String[] args) {
         /*
          * Adding 2 Matrices
-         * Multiplying 2 Matrices
-         * Sorting Array of Strings
          */
         Scanner sc = new Scanner(System.in);
 
