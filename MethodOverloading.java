@@ -49,8 +49,15 @@ public class MethodOverloading {
         for (int x:A) {
             System.out.print(x + " ");
         }
+        int B[] = new int[A.length];
+        B = reverse(A);
+
         System.out.println("");
         System.out.println(validate("Varun Reddy"));
         System.out.println(validate(18));
+        
+        for(int x:B) {
+            System.out.print(x + " ");
+        }
     }
 }
