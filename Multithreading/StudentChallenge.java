@@ -49,6 +49,7 @@ class Teacher extends Thread {
         notes = n;
     }
 
+    @Override
     public void run(){
         for(int i=0; i<notes.length; i++){
             platform.write(notes[i]);
@@ -67,6 +68,7 @@ class Student extends Thread{
         pf.attendence();
     }
 
+    @Override
     public void run(){
         String text;
         
